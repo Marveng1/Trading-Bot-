@@ -1,0 +1,33 @@
+MarvGoldScalper V061 - SINGLE FILE
+
+This package fixes the missing MGSCore.mqh installation dependency by embedding
+that code in the EA. No trading strategy or safety policy was changed.
+It has NOT been compiled in MetaEditor or backtested here. DEMO ONLY.
+
+INSTALL ON WINDOWS FXPRO MT5
+1. In MT5 choose File > Open Data Folder.
+2. Open MQL5 > Experts.
+3. Copy MarvGoldScalper_V061_Standalone.mq5 into that Experts folder.
+4. Press F4 from the same MT5 terminal.
+5. In MetaEditor choose File > Open and open this standalone file from Experts.
+6. Press F7. The active tab must say MarvGoldScalper_V061_Standalone.mq5.
+7. Compilation must finish with 0 errors before an .ex5 EA is generated.
+8. Return to MT5: Ctrl+N > Expert Advisors > right-click > Refresh.
+
+PASTE INSTEAD OF COPYING A FILE
+1. Copy the complete standalone source from its GitHub code page.
+2. In MetaEditor choose File > New > Expert Advisor (template).
+3. Name it MarvGoldScalper_V061_Standalone; complete the wizard without adding extra event handlers.
+4. Ctrl+A in the generated source, paste the ENTIRE standalone code, Ctrl+S, F7.
+
+No separate MGSCore.mqh is needed. MT5's standard Trade/Trade.mqh remains required
+and is normally supplied with MT5. Do not delete the standard include.
+
+Orders default OFF. Use Strategy Tester/demo only after compilation. Close or
+detach the older EA instances before running this one: its account ownership
+lock does not coordinate legacy versions. Dedicated hedging demo account only.
+
+If compilation fails, share the COMPLETE Errors panel and filename. A message
+about compiling is not proof of success: check the final error count.
+
+Generated file SHA256: 7172d613f966b5f02be8ca79d11a1050675fbc1bad5ae0d2f7b55f45c7f86099
