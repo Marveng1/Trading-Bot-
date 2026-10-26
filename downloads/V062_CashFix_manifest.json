@@ -1,0 +1,14 @@
+{
+  "build": "1.062 CASHFIX research candidate",
+  "mt5_compilation": "not_run_here",
+  "mt5_backtest": "not_run_for_this_build",
+  "performance_claim": null,
+  "hashes": {
+    "MarvGoldScalper_V062_CashFix.mq5": "8862c8f9afc82fc26518a5db518e749f284af73da1cd19e111e54c0feecdec64",
+    "MGSCore.mqh": "d7b9b4b0c5aa52ef6d0f1dc0929b4bb9a56eae0f2facac68311a0915efc4c4d7",
+    "MGSCashSearch.mqh": "2f2138bb662594a94873931588001da7c424935e7628215777d213f77c63ea19",
+    "MarvGoldScalper_V062_CashFix_Standalone.mq5": "2ae216deb3e051e1686e80a35021ce49738efea596225dd90b4732cb60228066",
+    "DEMO_TESTER_V062_EMA_Legacy.set": "4a1f4b97d92bc48c858ff94892616ebc271bf26d2afa605514cb0d1abae9958c",
+    "DEMO_TESTER_V062_EMA_Hybrid.set": "9802e2e31ba5d14d31ed47a9d4ad19813b48cc2c5ad04949bd955fcd175d5855"
+  }
+}
